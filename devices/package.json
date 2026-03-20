@@ -1,0 +1,21 @@
+{
+  "name": "machinenet-devices",
+  "version": "1.0.0",
+  "description": "MachineNet simulated IoT device scripts",
+  "scripts": {
+    "electric-car": "ts-node electric_car.ts",
+    "charging-station": "ts-node charging_station.ts",
+    "parking-meter": "ts-node parking_meter.ts",
+    "energy-sensor": "ts-node energy_sensor.ts",
+    "simulate-all": "ts-node simulate_all.ts"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/node-fetch": "^2.6.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
